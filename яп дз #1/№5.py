@@ -1,6 +1,6 @@
 # Определить в какой четверти находится точка 
-y=float(input('x:'))
-x=float(input('y:'))
+y = float(input('x:'))
+x = float(input('y:'))
 if y == 0:
     print('Точка на оси ординат')
 elif x == 0:
@@ -15,4 +15,3 @@ elif y < 0 and x > 0:
     print('Точка в 4-ой четверти')
 else:
     print('Точка в начале координат')
-    
