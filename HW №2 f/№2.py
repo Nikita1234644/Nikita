@@ -3,5 +3,5 @@ y = input("Введите количество целых чисел: ")
 while y:    
     x.append(y)
     y = input("Введите число: ")                       
-x.sort(reverse=True)               
+x.sort(reverse=True)    #сортирует строки(в строках сортирует по алфавиту н-р:2>13) реверс переоврачивает           
 print("".join(x))   
